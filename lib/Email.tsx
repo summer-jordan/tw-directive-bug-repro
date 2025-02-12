@@ -7,7 +7,7 @@ export function Email({twConfig}: { twConfig: TailwindConfig }) {
       <Tailwind config={twConfig}>
         <Head />
         <Body>
-          <Container className="p-8 md:p-4">
+          <Container className="p-4 md:p-8">
             <Text>Testing</Text>
           </Container>
         </Body>
