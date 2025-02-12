@@ -1,5 +1,7 @@
+import * as React from 'react';
+
 import { TailwindConfig } from '@react-email/components'
-import { Body, Container, Head, Html, Tailwind, Text } from '@react-email/components/dist'
+import { Body, Container, Head, Html, Tailwind, Text } from '@react-email/components'
 
 export function Email({twConfig}: { twConfig: TailwindConfig }) {
   return (
